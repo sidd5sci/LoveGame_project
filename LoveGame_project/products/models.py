@@ -10,7 +10,7 @@ class Product(models.Model):
     desciption  = models.TextField()
 
 
-class Ctegories(models.Model):
+class Categories(models.Model):
     name        = models.TextField()
     description = models.TextField()
     parent      = models.IntegerField()
